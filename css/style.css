@@ -1,0 +1,52 @@
+body{
+    background:linear-gradient(to bottom, #b25510,
+    #ffbd23);
+    font-family:"Roboto", sans-serif;
+    color:#2c1c11;
+}
+
+h1{
+    text-align:center;
+}
+
+h2{
+    text-align:left;
+
+}
+
+h3{
+    text-align:left;
+    padding:20px;
+}
+
+p{
+    background-color:#ffbd23;
+    width:auto;
+    padding:5px;
+}
+figure{
+    background-color: #5f3e25;
+    width:fit-content;
+    padding:20px;
+}
+figcaption{
+    background-color:#ffbd23;
+    display:inline;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+ul
+li
+ol
+ol li{
+    padding:10px;
+    margin-left:20px;
+}
+
+input
+fieldset{
+    background-color:#5f3e25;
+    
+}
+/*background:#5f3e25;*/
