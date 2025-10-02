@@ -3,6 +3,7 @@ body{
     #ffbd23);
     font-family:"Roboto", sans-serif;
     color:#2c1c11;
+    width:auto;
 }
 
 h1{
@@ -31,7 +32,6 @@ figure{
 }
 figcaption{
     background-color:#ffbd23;
-    display:inline;
     padding:10px;
     margin-top:10px;
     margin-bottom:10px;
@@ -47,6 +47,7 @@ ol li{
 input
 fieldset{
     background-color:#5f3e25;
-    
+    float:right;
+    display:inline-block;
 }
 /*background:#5f3e25;*/
