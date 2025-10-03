@@ -1,47 +1,59 @@
 body{
-    background:linear-gradient(to bottom, #b25510,
-    #ffbd23);
+    background:#b25510;
     font-family:"Roboto", sans-serif;
     color:#2c1c11;
-    width:auto;
+    margin:0px;
+    /*border: double cornflowerblue;*/
 }
-
 h1{
     text-align:center;
+    border: double cornflowerblue;
 }
 
 h2{
-    text-align:left;
-
+    text-align:center;
+    border: double cornflowerblue;
+    display:block;
 }
 
 h3{
     text-align:left;
     padding:20px;
+    border: double cornflowerblue;
 }
 
 p{
     background-color:#ffbd23;
     width:auto;
     padding:5px;
+    border: double cornflowerblue;
 }
 figure{
-    background-color: #5f3e25;
-    width:fit-content;
-    padding:20px;
+    display:block;
+    border: double cornflowerblue;
 }
 figcaption{
     background-color:#ffbd23;
     padding:10px;
     margin-top:10px;
     margin-bottom:10px;
+    border: double cornflowerblue;
 }
-ul
-li
-ol
+ul{
+    border: double cornflowerblue;
+}
+li{
+    border: double cornflowerblue;
+}
+ol{
+    border: double cornflowerblue;
+}
 ol li{
     padding:10px;
     margin-left:20px;
+}
+div {
+    border: double cornflowerblue;
 }
 
 input
@@ -51,3 +63,23 @@ fieldset{
     display:inline-block;
 }
 /*background:#5f3e25;*/
+.header{
+    background-color:#ffbd23;
+    height:fit-content;
+    width:auto;
+    margin:20px;
+}
+.body{
+    display:grid;
+    grid-template-columns: fit-content(100%) fit-content(50%);
+    grid-template-rows: fit-content(50%) fit-content(50%);
+}
+.image{
+    align-self:center;
+    background-color: #5f3e25;
+    width:fit-content;
+    padding:20px;
+}
+.paragraph{
+
+}
