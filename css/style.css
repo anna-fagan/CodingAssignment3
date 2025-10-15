@@ -36,7 +36,7 @@ h3{
 }
 
 p{
-    background-color:#ffbd23;
+    background-color:#c77dff;
     width:auto;
     padding:5px;
     /*border: double cornflowerblue;*/
@@ -46,7 +46,7 @@ figure{
     /*border: double cornflowerblue;*/
 }
 figcaption{
-    background-color:#ffbd23;
+    background-color:#c77dff;
     padding:10px;
     margin-top:10px;
     margin-bottom:10px;
@@ -69,13 +69,13 @@ div {
 }
 input
 fieldset{
-    background-color:#5f3e25;
+    background-color:#3c096c;
     float:right;
     display:inline-block;
 }
 /*background:#5f3e25;*/
 .header{
-    background-color:#ffbd23;
+    background-color:#c77dff;
     height:fit-content;
     width:fit-content;
     margin:auto;
@@ -91,18 +91,18 @@ fieldset{
 }
 .image{
     align-self:center;
-    background-color: #5f3e25;
+    background-color: #3c096c;
     width:fit-content;
     padding:20px;
 }
 .block{
-    background-color:#ffbd23;
+    background-color:#c77dff;
     width:90%;
     margin:20px;
     padding:20px;
 }
 .rating{
-    background-color:#ffbd23;
+    background-color:#c77dff;
     width:fit-content;
     height:fit-content;
     margin-left:auto;
