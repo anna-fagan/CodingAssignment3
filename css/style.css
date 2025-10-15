@@ -1,5 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+[class*="col"]{
+    float:left;
+    /*padding: 15px;*/
+    }
+.row::after{
+    content:"";
+    clear: both;
+    display:block;
+}
 body{
-    background:#b25510;
+    background-image: url('../images/blue-gradient-chevron-background.png');
+    /* background:#b25510; */
     font-family:"Roboto", sans-serif;
     color:#2c1c11;
     margin:0px;
@@ -74,6 +87,7 @@ fieldset{
     grid-template-columns: fit-content(100%) fit-content(100%);
     grid-template-rows: fit-content(50%) fit-content(50%);
     gap:20px;
+    padding:10px;
 }
 .image{
     align-self:center;
@@ -83,8 +97,9 @@ fieldset{
 }
 .block{
     background-color:#ffbd23;
-    width:fit-content;
+    width:90%;
     margin:20px;
+    padding:20px;
 }
 .rating{
     background-color:#ffbd23;
