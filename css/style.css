@@ -91,6 +91,7 @@ fieldset{
 }
 .image{
     align-self:center;
+    justify-content:center;
     background-color: #3c096c;
     width:fit-content;
     padding:20px;
@@ -112,4 +113,11 @@ fieldset{
 }
 .center-text{
     text-align:center;
+}
+#center{
+    text-align: center;
+    align-items: center;
+}
+.right-text{
+    text-align: right;
 }
