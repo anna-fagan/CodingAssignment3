@@ -24,7 +24,7 @@ h3{
 }
 
 p{
-    background-color:#c77dff;
+    background-color:#ffbd23;
     width:auto;
     padding:5px;
     /*border: double cornflowerblue;*/
@@ -34,7 +34,7 @@ figure{
     /*border: double cornflowerblue;*/
 }
 figcaption{
-    background-color:#c77dff;
+    background-color:#ffbd23;
     padding:10px;
     margin-top:10px;
     margin-bottom:10px;
@@ -62,7 +62,7 @@ fieldset{
 }
 /*background:#5f3e25;*/
 .header{
-    background-color:#c77dff;
+    background-color:#ffbd23;
     height:fit-content;
     width:fit-content;
     margin:auto;
@@ -78,18 +78,18 @@ fieldset{
 .image{
     align-self:center;
     justify-content:center;
-    background-color: #3c096c;
+    background-color: #5f3e25;
     width:fit-content;
     padding:20px;
 }
 .block{
-    background-color:#c77dff;
+    background-color:#ffbd23;
     width:90%;
     margin:20px;
     padding:20px;
 }
 .rating{
-    background-color:#c77dff;
+    background-color:#ffbd23;
     width:fit-content;
     height:fit-content;
     margin-left:auto;
