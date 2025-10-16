@@ -1,18 +1,6 @@
-*{
-    box-sizing: border-box;
-}
-[class*="col"]{
-    float:left;
-    /*padding: 15px;*/
-    }
-.row::after{
-    content:"";
-    clear: both;
-    display:block;
-}
 body{
-    background-image: url('../images/blue-gradient-chevron-background.png');
-    /* background:#b25510; */
+    background:#b25510;
+    background-image:url("../images/Orange-Gingham-Checkered-Background.jpg");
     font-family:"Roboto", sans-serif;
     color:#2c1c11;
     margin:0px;
@@ -70,7 +58,6 @@ div {
 input
 fieldset{
     background-color:#5f3e25;
-    float:right;
     display:inline-block;
 }
 /*background:#5f3e25;*/
@@ -87,7 +74,6 @@ fieldset{
     grid-template-columns: fit-content(100%) fit-content(100%);
     grid-template-rows: fit-content(50%) fit-content(50%);
     gap:20px;
-    padding:10px;
 }
 .image{
     align-self:center;
@@ -109,7 +95,18 @@ fieldset{
     margin-right:auto;
     text-align:center;
     padding:20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .center-text{
     text-align:center;
+}
+
+#div{
+    margin:auto;
+    padding:40px;
 }
